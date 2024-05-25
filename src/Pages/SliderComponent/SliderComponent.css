@@ -1,0 +1,159 @@
+#sliderBlock{
+    background: rgb(150,240,182);
+}
+#sliderBlock article{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    
+    min-height: 630px;
+}
+#sliderBlock article .sliderLeft{
+    flex-basis: 60%;
+}
+#sliderBlock article .sliderRight{
+    flex-basis: 40%;
+     justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.sliderLeft{
+    margin: 80px 0;
+    color: #202f72;
+   
+    }
+.sliderLeft h4{
+         padding-bottom: 50px;
+    font-size: 14px;
+}
+.sliderLeft h1{
+    font-size: 3.5em;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+}
+p.enjoy{
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 50px;
+letter-spacing: 1.3px;
+}
+.sliderLeft button{
+    border-radius: 500px;
+    font-weight: bold;
+    padding: 17px 48px;
+    border: none;
+    font-size: 15px;
+    background: #202f72 !important;
+    color: rgb(150,240,182);
+    text-transform: capitalize;
+    letter-spacing: 1.8px;
+    margin-bottom: 50px;
+}
+.sliderRight {
+    flex-basis: 40%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.sliderRight figure{
+ background: url("./sliderimgae.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  width: 80%;
+  height: 100%;
+}
+#slider2block{
+    background: #F46EBE;
+}
+#slider2block article{
+     display: flex;
+    width: 100%;
+    margin: 0 auto;
+    /* height: 100%; */
+    height: 630px;
+    
+    
+}
+#slider2block article .leftblock2{
+    flex-basis: 35%;
+}
+#slider2block article .rightblock2{
+    flex-basis: 65%;
+     justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+.leftblock2{
+    margin: 64px 160px;
+    color: #202f72;
+}
+.leftblock2 span img{
+    width: 150px;
+    height: 90px;
+
+}
+.leftblock2 p{
+ padding-bottom: 20px;
+    font-size: 14px;
+   
+}
+.leftblock2 h2{
+    font-size: 3.5em;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+    
+}
+.leftblock2 h4{
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+   
+}
+#slider2block article .rightblock2 {
+  background-image: url("./slider2img.svg");
+  background-position: right -1100px bottom -412px;
+}
+
+/* *****3rd slider */
+#slider3-Block {
+ background: #2941ab;
+ color: #1ed760;
+ background-image: url("./spotifyCircles.svg");
+ background-position: right center;
+}
+#slider3-Block article {
+ display: flex;
+ width: 90%;
+ margin: 0 auto;
+ height: 606px;
+}
+.slider3Left h4 {
+ margin-top: 74px;
+ padding-bottom: 40px;
+}
+.slider3Left h1 {
+ font-size: 60px;
+ font-weight: 900;
+ padding-bottom: 48px;
+}
+.songs {
+ font-size: 24px;
+ line-height: 39px;
+ padding-bottom: 74px;
+}
+.slider3Left button {
+ height: 49px;
+ background: #1ed760;
+ width: 252px;
+ border: none;
+ border-radius: 500px;
+ color: #2941ab;
+ font-weight: 700;
+ letter-spacing: 2px;
+}

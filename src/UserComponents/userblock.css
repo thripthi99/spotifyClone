@@ -1,0 +1,77 @@
+#userblock{
+   
+    height: 100vh;
+}
+#userblock article{
+   display: flex;
+   height: 100vh;
+}
+ .userleftblock{
+    flex-basis: 15%;
+    background: #000;
+    color: #fff;
+  display: flex;
+  flex-direction: column;
+  
+}
+.userrightblock{
+    flex-basis: 85%;
+    background: #121212;
+    color: #fff;
+}
+
+.userleftblock  svg{
+    margin-left: 30px;
+    margin-top: 20px;
+  width: 150px;
+ 
+  fill:#fff;
+}
+.userleftlist ul li{
+   padding: 8px;
+   margin: 8px;
+   font-size: 18px;
+}
+
+.userleftlist ul li a{
+    text-decoration: none;
+    color: rgb(143, 140, 140);
+}
+.userleftlist ul li a span{
+    padding: 6px;
+}
+.userleftlist ul li:hover{
+    color: #000;
+    background: #f7f0f0;
+}
+.leftlist2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.leftlist2 ul li{
+padding: 10px;
+margin-top: 10px;
+}
+.leftlist2 ul li a{
+    text-decoration: none;
+    color: rgb(143, 140, 140);
+}
+.leftlist2 ul li a span{
+    padding: 5px;
+    padding-bottom: 2px;
+}
+.fa-heart-square{
+    color: rgb(27, 87, 128);
+}
+.fa-plus-square{
+   color: #000;
+    background: rgb(143, 140, 140) ;
+}
+.userleftblock footer{
+    margin-top: 240px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+.userleftblock footer span{
+    padding: 5px;
+}
